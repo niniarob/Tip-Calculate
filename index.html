@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <main>
+    <div class="tip-calculate">
+      <div class="spillet">
+        <img src="./assets/SPLITTER (1).svg">
+      </div>
+      
+      <div class="calculate">
+        <div class="calc">
+        <div class="Bill">
+          <h2>Bill</h2>
+          <input type="number" class="inputClass " id="myInput" placeholder="0"  required />
+        </div>
+        <div class="procentButtons">
+          <h2>Select Tip %</h2>
+          <div class="buttons">
+            <button >5%</button>
+            <button >10%</button>
+            <button >15%</button>
+            <button >20%</button>
+            <button >25%</button>
+            <input class=" inputClass customInput" id="customInputId" placeholder="Custom"  required />
+          </div>
+        </div>
+        <div class="Bill numOfPeople">
+          <h2>Number of People</h2>
+          <input type="number" class="inputClass peopleInput" id="numPeople" placeholder="0"  required />
+        </div>
+      </div>
+        <div class="clcButton">
+        <div class="resentBox">
+          <div class="tip">
+          <div class="tipAmount">
+          <div class="txt">
+            <h5>Tip Amount</h5>
+            <p>/ person</p>
+          </div>
+          <h4 id="tipAmountInput">$0.00</h4> 
+          </div>
+          <div class="tipAmount">
+          <div class="txt">
+            <h5>Total</h5>
+            <p>/ person</p>
+          </div>
+          <h4 id="total">$0.00</h4>
+        </div>
+      </div>
+        <button class="resetBut">
+          RESET
+        </button>
+    </div>
+  </div>
+  </main>     
+    <script src="./index.js"></script>
+</body>
+</html>

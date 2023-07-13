@@ -1,0 +1,67 @@
+@media screen and (min-width:1400px) {
+    .tip-calculate{
+        width: 920px;
+    }
+    .calculate{
+        width: 920px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-radius: 25px 25px 25px 25px;
+    }
+    .calc{
+        width: 413px;
+        height: 417px;
+        display: flex;
+        flex-direction: column;
+    }
+    .resentBox{
+        width: 413px;
+        height: 400px;
+        flex-shrink: 0;
+        margin-left: 0;
+    }
+    .buttons{
+        width: 379px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .buttons button{
+        width: 117px;
+    }
+    .customInput{
+        width: 117px;
+    }
+    .Bill input{
+        width: 379px;
+    }
+    .numOfPeople .peopleInput{
+        width: 379px;
+
+    }
+    .clcButton {
+        width: 413px;
+    }
+    .resentBox{
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .tip{
+        width: 333px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 0;
+    }
+    .tipAmount{
+        width: 333px;
+    }
+    .resetBut{
+        width: 333px;
+        margin-bottom: 50px;
+        background-color: #0D686D;
+    }
+}

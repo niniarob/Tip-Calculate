@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+*,*::after,
+*::before{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Space Mono";
+}
+
+:root{
+    --bodyColor:#C5E4E7;
+    --spliterColor:#3D6666;
+    --txtColor:#5E7A7D;
+    --buttonColor:#00474B;
+    --inputColor:#F3F9FA;
+    --resentButtonColor:#26C2AE;
+    --white:#fff;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bodyColor);
+}
+h2{
+    color: #5E7A7D;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tip-calculate{
+    width:375px;
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calculate{
+    width: 375px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  center;
+    border-radius: 25px 25px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+}
+.Bill{
+    width: 311px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.tip{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Bill input{
+    width: 311px;
+    height: 48px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-top: 6px;
+    border: none; 
+    outline: none;
+    background-color: var(--inputColor);
+    background-image: url(./assets/$.svg);
+    background-repeat: no-repeat; 
+    background-position: 20px center;
+    text-align: right ;
+    padding-right: 20px ;
+}
+.inputClass::placeholder{
+    color: #00474B;
+    text-align: right;
+    font-family: "Space Mono";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    opacity: 0.3499999940395355;
+    display: flex;
+    align-items: end;
+}
+.inputClass::-webkit-inner-spin-button,
+.inputclass::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+   margin: 0;
+}
+.procentButtons{
+    width: 311px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    margin-top: 16px;
+}
+.buttons button {
+    width: 147px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: var(--buttonColor);
+    color: var(--white);
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+.buttons button:focus {
+    background-color: #9FE8DF;
+    color: #00474B;
+}
+.customInput{
+    width: 147px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: none;
+    outline:none ;
+    background-color: var(--inputColor);
+    text-align: right;
+}
+.customInput::placeholder{
+    color: #547878;
+    text-align: right;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.numOfPeople .peopleInput{
+    width: 311px;
+    height: 48px;
+    background-image: none;
+    background-image: url(./assets/people-icon.svg);
+}
+.clcButton {
+    width: 311px;
+    margin-top: 23px;
+}
+.resentBox{
+    width: 311px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding-top: 35px;
+    border-radius: 15px;
+    background: #00474B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+.tipAmount{
+    width: 281px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.tipAmount h5{
+    color: #FFF;
+    font-family:"Space Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tipAmount p{
+    color: #7F9D9F;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tipAmount h4{
+    color: #26C2AE;
+    text-align: right;
+    font-family: "Space Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.667px;
+}
+.resetBut{
+    width: 281px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #26C2AE;
+    border: none;
+    color: #00474B;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.resetBut:hover{
+    background: #C5E4E7;
+}
